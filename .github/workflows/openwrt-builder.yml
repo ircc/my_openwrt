@@ -16,6 +16,7 @@ on:
   repository_dispatch:
   workflow_dispatch:
 
+# 环境变更
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
@@ -25,7 +26,7 @@ env:
   DIY_P2_SH: diy-part2.sh
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true
-  UPLOAD_RELEASE: true
+  UPLOAD_RELEASE: true #上传固件到 Releases 页面
   TZ: Asia/Shanghai
 
 jobs:
